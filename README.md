@@ -1,5 +1,7 @@
 # DeepResearch Multi-Agent
 
+[![CI](https://github.com/hstrop/deepresearch-multi-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/hstrop/deepresearch-multi-agent/actions/workflows/ci.yml)
+
 DeepResearch is an offline-first multi-agent industry research prototype. It turns a research request into a visible workflow: planner → researcher → critic → synthesizer, with source-aware sections and an auditable trace.
 
 ## Global AI/LLM Internship Portfolio
