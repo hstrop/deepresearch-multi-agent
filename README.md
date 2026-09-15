@@ -37,3 +37,12 @@ python -m pytest -q
 ```
 
 The suite covers agent ordering, source limits, unknown-topic boundaries, request validation, and health behavior.
+
+## Container deployment
+
+```powershell
+docker build -t deepresearch-multi-agent .
+docker run --rm -p 8030:8030 deepresearch-multi-agent
+```
+
+Open `http://127.0.0.1:8030/`. The image uses the local corpus and makes no live-search or real-time market-data claim.
