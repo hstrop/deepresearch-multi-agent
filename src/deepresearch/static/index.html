@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>DeepResearch · 多 Agent 研究台</title>
+    <link rel="stylesheet" href="/assets/app.css" />
+  </head>
+  <body>
+    <main class="shell"><header><a class="brand" href="/"><span class="mark">D</span><span><b>DeepResearch</b><small>MULTI-AGENT RESEARCH DESK</small></span></a><span class="mode"><i></i>OFFLINE CORPUS</span></header><section class="hero"><p>PLANNER · RESEARCHER · CRITIC · SYNTHESIZER</p><h1>把研究过程，<em>展开给你看。</em></h1><span>一个可追踪的多 Agent 研究工作流：先拆解问题，再选择证据、检查覆盖，最后给出带引用的结论。</span></section><section class="workspace"><section class="panel form-panel"><div class="label">RESEARCH BRIEF</div><label>研究主题<input id="topic" value="RAG 评估如何落地" /></label><label>关注方向<input id="focus" value="评测指标、工程实践与风险" /></label><label>最多引用来源<select id="max-sources"><option>3</option><option selected>4</option><option>5</option></select></label><button id="run">开始研究 <span>↗</span></button><div class="agents"><div><b>P</b><span>Planner<small>定义问题</small></span></div><div><b>R</b><span>Researcher<small>选择证据</small></span></div><div><b>C</b><span>Critic<small>检查覆盖</small></span></div><div><b>S</b><span>Synthesizer<small>组织结论</small></span></div></div></section><section class="panel report"><div class="report-head"><span>RESEARCH REPORT</span><small id="source-count">等待任务</small></div><div id="result" class="result"><div class="placeholder"><b>准备开始一次可复现的研究。</b><span>研究结果会显示摘要、分段结论、来源卡片和 Agent 轨迹。</span></div></div></section></section><footer><span>DeepResearch / FastAPI + deterministic agent graph</span><span>本地语料 · 不伪装实时搜索</span></footer></main><script src="/assets/app.js" defer></script>
+  </body>
+</html>
